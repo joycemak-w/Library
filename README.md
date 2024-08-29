@@ -7,8 +7,25 @@
 
 ## Functions
 - View list of members
+  ```py
+  def view_member_list():
+    # get all members data from `Members` and no. of borrowed book per member from `Borrowing_Records` save as dataframe
+    # show dataframe in textarea
+  ```
 - View list of books
+  ```py
+  def view_book_list():
+    # get all book data from `Books` and if book is borrowed `is_returned` from `Borrowing_Records` save as dataframe
+    # show dataframe in textarea
+  ```
 - Borrow a book
+  ```py
+  def borrow_book():
+    #  get `member_id` and `book_id` by inputing in GUI
+    #  Args: 1. With existing `member_id` and `book_id` in `Members` and `Books` respectively
+    #        2. no. of borrow books of that member <= 2
+      #  add borrow record to `Borrowing_Records` with `member_id`, `book_id`
+  ```
 - Return a book
 - Add a new member
 - Add a new book
